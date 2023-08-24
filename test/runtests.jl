@@ -67,7 +67,7 @@ function istmsnet(net::AbstractMatrix{T}; λ::I, t::I, m::I, s::I,
 end
 
 """
-    in_halfopen(x, a)
+    inCloseOpen(x, a)
 
 Checks if the number `x` is a member of the interval `a` (close on the left and open on the right), treated as a set.
 """
